@@ -8,8 +8,8 @@ var cors = require("cors");
 var PORT = 8080;
 
 // Fill the appID and appCertificate key given by Agora.io
-var appID = "dea6fdfc45324a81b2560821465fb3d9";
-var appCertificate = "690af17e343f47afbc913e0c8993dd82";
+var appID = "";
+var appCertificate = "";
 
 // token expire time, hardcode to 3600 seconds = 1 hour
 var expirationTimeInSeconds = 3600;
