@@ -36,6 +36,7 @@ var generateRtcToken = function (req, resp) {
     channelName,
     uid,
     role,
+    expirationTimeInSeconds,
     privilegeExpiredTs
   );
 
